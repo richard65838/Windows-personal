@@ -22,7 +22,11 @@ default: &default
   pool: <%= ENV.fetch("RAILS_MAX_THREADS") { 5 } %>
 
 development:
-  <<: *default
+  adapter: postgresql
+  encoding: unicode
+  pool: 5
+  username: base_user
+  password: base_key
   database: base_project_development
 
   # The specified database role being used to connect to postgres.

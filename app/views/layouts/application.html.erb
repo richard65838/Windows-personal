@@ -1,14 +1,26 @@
-<!DOCTYPE html>
-<html>
+<!doctype html>
+<html lang="es">
   <head>
-    <title>BaseProject</title>
-    <%= csrf_meta_tags %>
-
+    <title>Como integrar Ruby on Rails 5 y Bootstrap 4 </title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <link rel="icon" href="https://blog.nubecolectiva.com/wp-content/uploads/2018/08/faviconcc.png">
+ 
+    <!-- Con estas 2 líneas llamamos a los archivos CSS y Javascript de Bootstrap y demás -->
     <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track': 'reload' %>
     <%= javascript_include_tag 'application', 'data-turbolinks-track': 'reload' %>
+ 
+    <!-- Utilidad CSS de Bootstrap externa (No es necesario, si esta línea ya debería funcionarte Bootstrap) -->
+    <link href="https://getbootstrap.com/docs/4.0/examples/jumbotron/jumbotron.css" rel="stylesheet">    
+ 
   </head>
-
+ 
   <body>
+ 
+    <!-- Aca renderizamos los elementos dentro del body en la etiqueta  <%= yield %> -->
     <%= yield %>
+    
   </body>
 </html>
