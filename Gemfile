@@ -8,6 +8,8 @@ end
   
 gem 'bootstrap', '~> 4.3.1'
 
+gem 'devise'
+
 gem 'jquery-rails'
 
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
