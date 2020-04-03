@@ -1,9 +1,10 @@
 %header.masthead
   %section
     .log_in_content
-      %h2.mt-0.text-center Log In
+      %h2.mt-0.text-center Sign up
       %hr.divider
-      = form_for(resource, as: resource_name, url: session_path(resource_name)) do |f|
+      = form_for(resource, as: resource_name, url: registration_path(resource_name)) do |f|
+        = render "devise/shared/error_messages", resource: resource
         .field
           .imput_with_icon
             %span.fa.fa-user.icon_input
@@ -12,11 +13,10 @@
           .imput_with_icon
             %span.fa.fa-lock.icon_input
             = f.password_field :password, class: 'form-control', autocomplete: "current-password", placeholder: "password"
-        - if devise_mapping.rememberable?
-          .field
-            = f.check_box :remember_me
-            = f.label :remember_me
+        .field
+          .imput_with_icon
+            %span.fa.fa-lock.icon_input
+            = f.password_field :password_confirmation, class: 'form-control', autocomplete: "current-password", placeholder: "password confirmation"
         .actions
-          = f.submit "Log in"
+          = f.submit "Sign up"
       = render "devise/shared/links"
-

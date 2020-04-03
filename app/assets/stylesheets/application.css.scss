@@ -10156,3 +10156,20 @@ header.masthead h1 {
 .log_in_content h2{
   color: white;
 }
+
+.imput_with_icon .form-control {
+    padding-left: 2.375rem;
+    margin-top: 0.5rem;
+}
+
+.imput_with_icon .icon_input {
+    position: absolute;
+    z-index: 2;
+    display: block;
+    width: 2.375rem;
+    height: 2.375rem;
+    line-height: 2.375rem;
+    text-align: center;
+    pointer-events: none;
+    color: #aaa;
+}
