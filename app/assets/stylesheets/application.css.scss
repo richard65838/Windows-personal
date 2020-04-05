@@ -10075,6 +10075,7 @@ header.masthead {
   background-repeat: no-repeat;
   background-attachment: scroll;
   background-size: cover;
+  height: inherit;
 }
 header.masthead h1 {
   font-size: 2.25rem;
@@ -10172,4 +10173,10 @@ header.masthead h1 {
     text-align: center;
     pointer-events: none;
     color: #aaa;
+}
+
+.log_in_button
+{
+  width: 100%;
+  margin-top: 10px;
 }

@@ -18,5 +18,5 @@
             %span.fa.fa-lock.icon_input
             = f.password_field :password_confirmation, class: 'form-control', autocomplete: "current-password", placeholder: "password confirmation"
         .actions
-          = f.submit "Sign up"
+          = f.submit "Sign up", class: 'btn btn-primary log_in_button'
       = render "devise/shared/links"
