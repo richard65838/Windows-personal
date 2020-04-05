@@ -1,0 +1,22 @@
+%header.masthead
+  %section
+    .log_in_content
+      %h2.mt-0.text-center Sign up
+      %hr.divider
+      = form_for(resource, as: resource_name, url: registration_path(resource_name)) do |f|
+        = render "devise/shared/error_messages", resource: resource
+        .field
+          .imput_with_icon
+            %span.fa.fa-user.icon_input
+            = f.email_field :email, autofocus: true, class: 'form-control', autocomplete: "email", placeholder: "email"
+        .field
+          .imput_with_icon
+            %span.fa.fa-lock.icon_input
+            = f.password_field :password, class: 'form-control', autocomplete: "current-password", placeholder: "password"
+        .field
+          .imput_with_icon
+            %span.fa.fa-lock.icon_input
+            = f.password_field :password_confirmation, class: 'form-control', autocomplete: "current-password", placeholder: "password confirmation"
+        .actions
+          = f.submit "Sign up", class: 'btn btn-primary log_in_button'
+      = render "devise/shared/links"

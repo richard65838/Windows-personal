@@ -10075,6 +10075,7 @@ header.masthead {
   background-repeat: no-repeat;
   background-attachment: scroll;
   background-size: cover;
+  height: inherit;
 }
 header.masthead h1 {
   font-size: 2.25rem;
@@ -10137,4 +10138,45 @@ header.masthead h1 {
 
 .text-white-75 {
   color: rgba(255, 255, 255, 0.75);
+}
+
+
+.log_in_content {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  z-index: 999;
+  text-align: center;
+  padding: 60px 32px;
+  width: 370px;
+  transform: translate(-50%, -50%);
+  background: rgba(255, 255, 255, 0.04);
+  box-shadow: -1px 4px 28px 0px rgba(0, 0, 0, 0.75);
+}
+
+.log_in_content h2{
+  color: white;
+}
+
+.imput_with_icon .form-control {
+    padding-left: 2.375rem;
+    margin-top: 0.5rem;
+}
+
+.imput_with_icon .icon_input {
+    position: absolute;
+    z-index: 2;
+    display: block;
+    width: 2.375rem;
+    height: 2.375rem;
+    line-height: 2.375rem;
+    text-align: center;
+    pointer-events: none;
+    color: #aaa;
+}
+
+.log_in_button
+{
+  width: 100%;
+  margin-top: 10px;
 }
