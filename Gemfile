@@ -11,6 +11,10 @@ gem 'bootstrap', '~> 4.3.1'
 
 gem 'devise'
 
+gem 'omniauth-facebook'
+
+gem 'omniauth-google'
+
 gem 'font-awesome-sass', '~> 5.12.0'
 
 gem "haml-rails", "~> 2.0"
