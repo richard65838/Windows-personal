@@ -8,12 +8,11 @@ end
   
 gem 'bootstrap', '~> 4.3.1'
 
-
 gem 'devise'
 
 gem 'omniauth-facebook'
 
-gem 'omniauth-google'
+gem 'omniauth-google-oauth2'
 
 gem 'font-awesome-sass', '~> 5.12.0'
 

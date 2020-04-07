@@ -261,6 +261,7 @@ Devise.setup do |config|
   # up on your models and hooks.
   # Change to Actual AppID and AppSecret
 	config.omniauth :facebook, "532083214392134", "c2e22406e841db98244e7a850a218690", token_params: { parse: :json }
+	config.omniauth :google_oauth2, "550031443753-03rsk0v1t7plm6hfic1n2ge0n9la7b35.apps.googleusercontent.com", "KC0W93qon9LpOT7RSllJL6r2", {}
 
   # ==> Warden configuration
   # If you want to use other strategies, that are not supported by Devise, or
