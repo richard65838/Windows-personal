@@ -8,14 +8,19 @@ end
   
 gem 'bootstrap', '~> 4.3.1'
 
-
 gem 'devise'
+
+gem 'omniauth-facebook'
+
+gem 'omniauth-google-oauth2'
 
 gem 'font-awesome-sass', '~> 5.12.0'
 
 gem "haml-rails", "~> 2.0"
 
 gem 'jquery-rails'
+
+gem "figaro"
 
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
 gem 'rails', '~> 5.1.7'
