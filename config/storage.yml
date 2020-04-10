@@ -8,8 +8,8 @@ test:
 
 amazon:
   service: S3
-  access_key_id: "AKIAVU56Z243KCKMWTMM"
-  secret_access_key: "P6mI9KCAnoIYhnUfaFnNAyzUIpL7dAjkMvRs7hML"
-  bucket: "bucket5app5jose"
-  region: "us-east-1" # e.g. 'us-east-1'
+  access_key_id: ENV['ACCESS_KEY_ID']
+  secret_access_key: ENV['SECRET_ACCESS_KEY']
+  bucket: 'bucket5app5jose'
+  region: 'us-east-1'
 
