@@ -1,21 +1,21 @@
-%h1 Listing posts
-
-%table
-  %thead
-    %tr
-      %th Name
-      %th
-      %th
-      %th
-
-  %tbody
-    - @posts.each do |post|
+%section.content_after_navbar
+  %h1 Listing posts
+  %table
+    %thead
       %tr
-        %td= post.name
-        %td= link_to 'Show', post
-        %td= link_to 'Edit', edit_post_path(post)
-        %td= link_to 'Destroy', post, method: :delete, data: { confirm: 'Are you sure?' }
+        %th Name
+        %th
+        %th
+        %th
 
-%br
+    %tbody
+      - @posts.each do |post|
+        %tr
+          %td= post.name
+          %td= link_to 'Show', post
+          %td= link_to 'Edit', edit_post_path(post)
+          %td= link_to 'Destroy', post, method: :delete, data: { confirm: 'Are you sure?' }
 
-= link_to 'New Post', new_post_path
+  %br
+
+  = link_to 'New Post', new_post_path
