@@ -17,7 +17,9 @@ apuntar a un nuevo repositorio de preferencia
 
 ## crear BD
 sudo -u postgres psql
+
 create user "user" with password 'key';
+
 create database "data_base_development" owner "user";
 
 En este punto ya deberias poder desplegar la pagina base sin problemas.
