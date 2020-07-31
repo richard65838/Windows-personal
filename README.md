@@ -15,10 +15,14 @@ Copia y pega el repo base
 
 Comandos configurar git
 Ejecuta los siguientes comandos:
-$ git remote rm origin
-$ git remote add origin <nueva rama>
-$ git config master.remote origin
-$ git config master.merge refs/heads/master
+
+git remote rm origin
+
+git remote add origin <nueva rama>
+
+git config master.remote origin
+
+git config master.merge refs/heads/master
 
 ## crear BD
 sudo -u postgres psql
