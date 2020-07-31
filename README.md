@@ -11,9 +11,14 @@ Este proyecto se trata de una base publica para crear desarrollos de manera ráp
 # Crear Proyecto a partir de la base
 
 ## Clonar el repositorio
-git clone (repositorio)
-remover el .git
-apuntar a un nuevo repositorio de preferencia
+Copia y pega el repo base
+
+Comandos configurar git
+Ejecuta los siguientes comandos:
+$ git remote rm origin
+$ git remote add origin <nueva rama>
+$ git config master.remote origin
+$ git config master.merge refs/heads/master
 
 ## crear BD
 sudo -u postgres psql
