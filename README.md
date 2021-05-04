@@ -49,4 +49,5 @@ Para generar las claves de acceso hay que seguir los siguientes tutoriales:
 - Agregar claves Google para inicio de sesión --> <a href="https://github.com/heartcombo/devise/wiki/OmniAuth:-Overview">Omniauth</a> 
 - Agregar claves faceboock para el inicio de sesión --> <a href="https://github.com/heartcombo/devise/wiki/OmniAuth:-Overview">Omniauth</a> 
 
+## Deploy con Heroku
 
