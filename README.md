@@ -7,6 +7,10 @@ Este proyecto se trata de una base publica para crear desarrollos de manera ráp
 - Inicio de sesión FB
 - Inicio de sesión google
 - Almacenamiento de imágenes Active Storage en bucket de S3
+- cancancan
+- cocoon
+- nested_form
+- google-analytics-rail
 
 # Crear Proyecto a partir de la base
 
@@ -45,4 +49,5 @@ Para generar las claves de acceso hay que seguir los siguientes tutoriales:
 - Agregar claves Google para inicio de sesión --> <a href="https://github.com/heartcombo/devise/wiki/OmniAuth:-Overview">Omniauth</a> 
 - Agregar claves faceboock para el inicio de sesión --> <a href="https://github.com/heartcombo/devise/wiki/OmniAuth:-Overview">Omniauth</a> 
 
+## Deploy con Heroku
 
