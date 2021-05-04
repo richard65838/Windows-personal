@@ -1,0 +1,17 @@
+<% if Rails.env.production? %>
+  <% google_analytics_id = "G-1Z3K5B4NXT" %>
+
+  <script async src="https://www.googletagmanager.com/gtag/js?id=<%= google_analytics_id %>"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag("js", new Date());
+    gtag("config", "<%= google_analytics_id %>", { send_page_view: false });
+
+    document.addEventListener( "turbolinks:load", function(){
+      gtag("event", "page_view", {
+        send_to: '<%= google_analytics_id %>'
+      })
+    })
+  </script>
+<% end %>

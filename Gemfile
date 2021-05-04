@@ -5,7 +5,7 @@ git_source(:github) do |repo_name|
   "https://github.com/#{repo_name}.git"
 end
 
-  
+
 gem 'bootstrap', '~> 4.3.1'
 
 gem 'devise'
@@ -21,6 +21,22 @@ gem "haml-rails", "~> 2.0"
 gem 'jquery-rails'
 
 gem "figaro"
+
+gem 'dynamic-fields-for'
+
+gem "cocoon"
+
+gem "nested_form"
+
+gem 'google-analytics-rails', '1.1.1'
+
+gem 'cancancan'
+
+gem 'activerecord-import'
+
+gem 'accept_language'
+
+gem 'rails-i18n', '~> 6.0.0'
 
 #Amazon S3
 gem "aws-sdk-s3", require: false

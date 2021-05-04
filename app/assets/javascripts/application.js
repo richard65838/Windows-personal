@@ -11,7 +11,10 @@
 // about supported directives.
 //
 //= require jquery3
+//= require jquery_nested_form
+//= require rails-ujs
 //= require popper
+//= require cocoon
 //= require bootstrap
 //= require rails-ujs
 //= require turbolinks
