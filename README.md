@@ -7,6 +7,10 @@ Este proyecto se trata de una base publica para crear desarrollos de manera ráp
 - Inicio de sesión FB
 - Inicio de sesión google
 - Almacenamiento de imágenes Active Storage en bucket de S3
+- cancancan
+- cocoon
+- nested_form
+- google-analytics-rail
 
 # Crear Proyecto a partir de la base
 
