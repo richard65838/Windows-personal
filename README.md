@@ -19,13 +19,13 @@ Este proyecto se trata de una base publica para crear desarrollos de manera ráp
 1) Crea un nuevo Repo con el nobre de tu proyecto en github
 
 2) Clona el repo base
-git clone git@github.com:richard65838/BaseProyectos.git
+``` git clone git@github.com:richard65838/BaseProyectos.git ```
 
 3)Configura el set Up
 Entra a set_up.sh y configura las lineas 1 y 3 con los datos de tu repo
 
 4) corre la configuracion configurara el git
-sh set_up.sh
+``` sh set_up.sh ```
 
 ## 2) crear BD
 sudo -u postgres psql
