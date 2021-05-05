@@ -21,11 +21,21 @@ Este proyecto se trata de una base publica para crear desarrollos de manera ráp
 2) Clona el repo base
 ``` git clone git@github.com:richard65838/BaseProyectos.git ```
 
-3)Configura el set Up
-Entra a set_up.sh y configura las lineas 1 y 3 con los datos de tu repo
+3)Cambia el nombre de la carpeta por la de tu repo
 
-4) corre la configuracion configurara el git
-``` sh set_up.sh ```
+4)Elimina el origen del repo
+``` git remote rm origin ```
+5) Has el primer push
+
+```
+git remote add origin webcomino 'remplazar por origen'
+
+Remplazar por el codigo de github para crear nuevo repo
+
+```
+6) Ojo si tienes doble autentificacion falla la password hay que generar un token como dice aca y remplazarlo en la password
+https://docs.github.com/en/github/authenticating-to-github/creating-a-personal-access-token
+
 
 ## 2) crear BD
 sudo -u postgres psql
