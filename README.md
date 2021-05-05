@@ -15,10 +15,8 @@ Este proyecto se trata de una base publica para crear desarrollos de manera ráp
 # Crear Proyecto a partir de la base
 
 ## 1) Clonar el repositorio
-Copia y pega el repo base
 
-Comandos configurar Nuevo Repo
-1) Crea un nuevo Repo con el nobre de tu proyecto :
+1) Crea un nuevo Repo con el nobre de tu proyecto en github
 
 2) Clona el repo base
 git clone git@github.com:richard65838/BaseProyectos.git
