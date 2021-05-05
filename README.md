@@ -14,21 +14,22 @@ Este proyecto se trata de una base publica para crear desarrollos de manera ráp
 
 # Crear Proyecto a partir de la base
 
-## Clonar el repositorio
+## 1) Clonar el repositorio
 Copia y pega el repo base
 
-Comandos configurar git
-Ejecuta los siguientes comandos:
+Comandos configurar Nuevo Repo
+1) Crea un nuevo Repo con el nobre de tu proyecto :
 
-git remote rm origin
+2) Clona el repo base
+git clone git@github.com:richard65838/BaseProyectos.git
 
-git remote add origin <nueva rama>
+3)Configura el set Up
+Entra a set_up.sh y configura las lineas 1 y 3 con los datos de tu repo
 
-git config master.remote origin
+4) corre la configuracion configurara el git
+sh set_up.sh
 
-git config master.merge refs/heads/master
-
-## crear BD
+## 2) crear BD
 sudo -u postgres psql
 
 create user "user" with password 'key';
@@ -37,7 +38,7 @@ create database "data_base_development" owner "user";
 
 En este punto ya deberias poder desplegar la pagina base sin problemas.
 
-## Configurar claves
+## 3) Configurar claves
 
 Para utilizar servicios externos es necesario crear las claves y las cuentas para poder iniciar sesión. Para configurarlos es nesesario acceder al archivo credentials y configurarlas
 1. Remover las credenciales rm config/master.key rm config/master.key
