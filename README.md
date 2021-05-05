@@ -59,4 +59,11 @@ Para generar las claves de acceso hay que seguir los siguientes tutoriales:
 - Agregar claves faceboock para el inicio de sesión --> <a href="https://github.com/heartcombo/devise/wiki/OmniAuth:-Overview">Omniauth</a> 
 
 ## Deploy con Heroku
+Crea tu instancia de Heroku
+### Si manejas mas de una, crea una instancia especial
+link como hacerlo: https://github.com/heroku/heroku-accounts#installation
 
+1) heroku create
+2) push
+3) bundle
+4) heroku run rake db:migrate
