@@ -30,7 +30,10 @@ Este proyecto se trata de una base publica para crear desarrollos de manera ráp
 ```
 git remote add origin webcomino 'remplazar por origen'
 
-Remplazar por el codigo de github para crear nuevo repo
+#algo como
+git remote add origin https://github.com/richard65838/webcomino.git
+git branch -M main
+git push -u origin main
 
 ```
 6) Ojo si tienes doble autentificacion falla la password hay que generar un token como dice aca y remplazarlo en la password
