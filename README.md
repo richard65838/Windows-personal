@@ -63,10 +63,18 @@ Para generar las claves de acceso hay que seguir los siguientes tutoriales:
 
 ## Deploy con Heroku
 Crea tu instancia de Heroku
-### Si manejas mas de una, crea una instancia especial
+### Si manejas mas de una, crea una instancia especial para ese trabajo
 link como hacerlo: https://github.com/heroku/heroku-accounts#installation
-
-1) heroku create
-2) push
-3) bundle
-4) heroku run rake db:migrate
+Ojo con la version de ruby hay que agregar la version espesifica de la instancia de heroku al gemfile asi:
+ruby '2.7.2' ya que tiene que concidir con la instancia de heroku
+#Guia integrar heroku con rails: https://devcenter.heroku.com/articles/getting-started-with-rails6
+```
+bundle update
+#Ojo si tienes mas de una instancia procura iniciar con la instancia espesifica
+heroku login
+git push heroku main
+# ve que corra exitosamente y quiere decir que esta todo OK
+heroku run rake db:migrate
+heroku open
+#puede ser que la instancia sea muy pesada y necesites contratar la version hobby $5 US
+5) ```
