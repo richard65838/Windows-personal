@@ -57,7 +57,7 @@ Para utilizar servicios externos es necesario crear las claves y las cuentas par
 3. El comando anterior abrirá una consola, en ella hay que agregar las claves solicitadas, para que funcionen los servicios correctamente.
 
 Para generar las claves de acceso hay que seguir los siguientes tutoriales:
-- Agregar claves de S3 --> <a href="https://medium.com/craft-academy/encrypted-credentials-in-ruby-on-rails-9db1f36d8570">Medium credentials RoR</a>
+- Agregar claves de S3 --> <a href="https://medium.com/alturasoluciones/setting-up-rails-5-active-storage-with-amazon-s3-3d158cf021ff">Configurar amazon</a>
 - Agregar claves Google para inicio de sesión --> <a href="https://github.com/heartcombo/devise/wiki/OmniAuth:-Overview">Omniauth</a> 
 - Agregar claves faceboock para el inicio de sesión --> <a href="https://github.com/heartcombo/devise/wiki/OmniAuth:-Overview">Omniauth</a> 
 
