@@ -77,4 +77,10 @@ git push heroku main
 heroku run rake db:migrate
 heroku open
 #puede ser que la instancia sea muy pesada y necesites contratar la version hobby $5 US
-5) ```
+5) 
+```
+
+## Configurar credenciales
+```
+heroku config:set RAILS_MASTER_KEY=`cat config/master.key`
+```
