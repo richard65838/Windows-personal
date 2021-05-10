@@ -80,7 +80,7 @@ heroku open
 5) 
 ```
 
-## Configurar credenciales
+### Configurar credenciales
 ```
 heroku config:set RAILS_MASTER_KEY=`cat config/master.key`
 ```
